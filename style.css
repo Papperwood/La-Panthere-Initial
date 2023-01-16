@@ -34,7 +34,22 @@ a:hover {
     height: 100px;
     width: 100px;
 }
-
+.baniere{
+    height: 40px;
+    width: 216px;
+}
+.citation{
+    height: 145px;
+    width: 567px;
+}
+.dimension1{
+    height: 75px;
+    width: 634px;
+}
+.dimension2{
+    height: 99px;
+    width: 476px;
+}
 .bloc {
     width: 100%;
     clear: both;
