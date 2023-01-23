@@ -26,6 +26,12 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+.nouveaux_titre{
+    margin-left: auto;
+    margin: auto;
+    width: 740px;
+    text-align: center;
+}
 .img-responsive1{
     width: 270px;
     height: 270px;
