@@ -36,6 +36,13 @@ a:hover {
     width: 270px;
     height: 270px;
 }
+.keywords{
+    color: #ffffff;
+    font-size: 1px"
+}
+.keywords_foot{
+    color: #f3976c;
+}
 .center-block{
     height: 100px;
     width: 100px;
