@@ -5,6 +5,9 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a,
@@ -63,6 +66,7 @@ a:hover {
     height: 99px;
     width: 476px;
 }
+
 .bloc {
     width: 100%;
     clear: both;
@@ -161,7 +165,7 @@ a:hover {
 .d-bloc a .icon-sm,
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
+.d-bloc atext_ilisible .icon-xl,
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
@@ -318,7 +322,16 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
-
+.col-sm-12 {
+    display: flex;
+    flex-direction: column;
+}
+.text_ilisible {
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -586,6 +599,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    left: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -687,7 +701,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #282828!important;
 }
 
 .container {
