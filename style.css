@@ -30,9 +30,8 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 .nouveaux_titre{
-    margin-left: auto;
     margin: auto;
-    width: 740px;
+    width: 340px;
     text-align: center;
 }
 .img-responsive1{
@@ -40,6 +39,7 @@ a:hover {
     height: 270px;
 }
 .keywords{
+    display: none;
     color: #ffffff;
     font-size: 1px"
 }
@@ -380,7 +380,6 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
@@ -449,6 +448,11 @@ a:hover {
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+    }
+    .nouveaux_titre {
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
     }
 }
 
